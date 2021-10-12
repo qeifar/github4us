@@ -1,0 +1,240 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Nunito', sans-serif;
+}
+
+body{
+    background-color: #94d9ea;
+}
+
+.main-content{
+    min-height: 100vh;
+    width: 80%;
+    margin: 2rem auto;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+
+    }
+    .left-section{
+        grid-column: span 2;
+        height: 100% ;
+        background-color: #00324a;
+    }
+
+    .right-section{
+        grid-column: span 5;
+        height: 100% ;
+        background-color: #f7f7f7;
+    }
+
+    .left-content{
+        padding: 1rem 5rem;
+    }
+
+    .profile{
+        width: 100%;
+        border-bottom: 1px solid #002333;
+
+    }
+
+    .profile img{
+        width: 100%;
+        border-radius:  50%;
+        border: 8px solid #1b0101;
+    }
+
+    .name{
+        font-size: 1.5rem ;
+        color: white;
+        text-align: center;
+        text-transform: uppercase;
+        padding: 1.2rem 0;   
+    }
+
+    .career{
+        font-size: 1.2rem;
+        color: #94d9ea;
+        text-align: center;
+        text-transform: uppercase;
+        padding-bottom: 1rem ;
+    }
+    .main-title{
+        font-size: 1.2rem;
+        text-transform: uppercase;
+        color: rgb(167, 166, 166);
+        padding-top: 3rem;
+    }
+
+    .contact-info ul{
+        padding-top: 1rem;
+    }
+
+    .contact-info ul li{
+        padding: .4rem 0;
+        display: flex;
+        align-items: baseline;
+        color: #718096;
+    }
+
+    .contact-info ul li i{
+        padding-right: .5rem;
+        font-size: 1.2rem;
+        color: #2d9cdb;
+    }
+
+    .skill-section ul li{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        padding:0.4rem 0;
+    }
+    .skill-section ul {
+        padding-top: 1rem;
+    }
+
+    .progress-bar{
+        width: 100%;
+        height: 1rem;
+        background-color: #2d3748;
+        position: relative;
+        border-radius: 12px;
+
+    }
+
+    .progress{
+        height: 100%;
+        position: absolute;
+        left: 0;
+        background-color: #2d9cdb;
+        border-radius: 12px;
+    }
+
+    .mo-progress{
+        width: 80%;
+    }
+    .c-progress{
+        width: 80%;
+    }
+    .rohm-progress{
+        width: 90%;
+    }
+    .plc-progress{
+        width: 75%;
+    }
+    .scada-progress{
+        width: 65%;
+    }
+    .arduino-progress{
+        width: 95%;
+    }
+    .matlab-progress{
+        width: 50%;
+    }
+    .proteus-progress{
+        width: 80%;
+    }
+    .altium-progress{
+        width: 80%;
+    }
+    .skill-title{
+        text-transform: uppercase;
+        color: #f7f7f7;
+        font-size: .7rem;
+        padding-right: 0.5rem;
+    }
+
+    .sub-title{
+        padding-top: 1rem;
+        font-size: .9rem;
+        text-transform: uppercase;
+        color: rgb(167, 166, 166);
+    }
+
+    .sub-para{
+        color: rgb(100, 100, 100);
+        padding: 0.4rem 0;
+    }
+
+    .references-section li{
+        color: rgb(100, 100, 100);
+        padding: .2rem 0;
+    }
+
+    .references-section li i {
+        padding-right: .1rem;
+        font-size: 1.2rem;
+        color: #2d9cdb;
+    }
+
+    .right-main-content{
+        padding: 1rem 2rem;
+    }
+
+    .right-title{
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: #2f80ed;
+        margin-bottom: 1.2rem;
+        position: relative;
+    }
+
+    .right-title::after{
+        
+        content: "";
+        position: absolute;
+        width: 60%;
+        height: .2rem;
+        background-color: #2d9cdb;
+        border-radius: 12px;
+        right: 0;
+        top: 50%;
+        transform: rotateY(-50%);
+    }
+
+    .para{
+        line-height: 1.6rem;
+        color: #718096;
+        font-size: 1.1rem;
+    }
+
+    .sect{
+       padding-bottom: 2rem;
+    }
+
+    .timeline{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .tl-title{
+        letter-spacing: 1px;
+        font-size: 1rem;
+        color: #002333;
+    }
+
+    .tl-title-2{
+        letter-spacing: 1px;
+        font-size: 1rem;
+        color: #2d9cdb;
+    }
+
+    .tl-content{
+        border-left: 1px solid #ccc;
+        padding-left: 2rem;
+        position: relative;
+        padding-bottom: 2rem;
+    }
+    
+    .tl-title-2::before{
+        content: "";
+        position: absolute;
+        width: .7rem;
+        height: .7rem;
+        background-color: #2d9cdb;
+        border-radius: 50%;
+        transform: translateX(-50%);
+        left: 0;
+    }
